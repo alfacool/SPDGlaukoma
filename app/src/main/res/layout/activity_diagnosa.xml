@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+
+   tools:context="com.meio.SPDGlaukoma.Diagnosa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/penjelasan1"
+        android:id="@+id/Penjelasan" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="25dp"
+       android:layout_below="@+id/Penjelasan"
+       android:text="@string/diag1"
+       android:id="@+id/diag1" />
+
+    <Spinner
+        android:id="@+id/poin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag1"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin1"
+        android:text="@string/diag2"
+        android:id="@+id/diag2" />
+
+    <Spinner
+        android:id="@+id/poin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag2"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin2"
+        android:text="@string/diag3"
+        android:id="@+id/diag3" />
+
+    <Spinner
+        android:id="@+id/poin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag3"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin3"
+        android:text="@string/diag4"
+        android:id="@+id/diag4" />
+
+    <Spinner
+        android:id="@+id/poin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag4"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin4"
+        android:text="@string/diag5"
+        android:id="@+id/diag5" />
+
+    <Spinner
+        android:id="@+id/poin5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag5"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin5"
+        android:text="@string/diag6"
+        android:id="@+id/diag6" />
+
+    <Spinner
+        android:id="@+id/poin6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag6"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin6"
+        android:text="@string/diag7"
+        android:id="@+id/diag7" />
+
+    <Spinner
+        android:id="@+id/poin7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag7"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin7"
+        android:text="@string/diag8"
+        android:id="@+id/diag8" />
+
+    <Spinner
+        android:id="@+id/poin8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag8"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin8"
+        android:text="@string/diag9"
+        android:id="@+id/diag9" />
+
+    <Spinner
+        android:id="@+id/poin9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag9"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/poin9"
+        android:text="@string/diag10"
+        android:id="@+id/diag10" />
+
+    <Spinner
+        android:id="@+id/poin10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/diag10"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dropdown"/>
+
+ <Button
+     android:id="@+id/kirim"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="18dp"
+     android:text="Diagnosa"
+     android:layout_below="@+id/poin10"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentEnd="true"
+     android:onClick="kirim"/>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="url_login">http://192.168.43.101/SPDGlaukoma/login.php</string>
+    <string name="url_diagnosa">http://192.168.43.101/SPDGlaukoma/diagnosa.php</string>
+    <string name="url_json">http://192.168.43.101/SPDGlaukoma/json.php</string>
+    <string name="url_register">http://192.168.43.101/SPDGlaukoma/register.php</string>
+    <string name="url_kelola">http://192.168.43.101/SPDGlaukoma/pakar/editcf.php</string>
+
+    <string name="app_name">Sistem Pakar Diagnosa Glaukoma</string>
+
+    <string name="penjelasan1">Silahkan isi tingkat keyakinan untuk tiap-tiap gejala : </string>
+
+    <string name="diag1">1. mata merah</string>
+    <string name="diag2">2. nyeri dimata</string>
+    <string name="diag3">3. mata kabur</string>
+    <string name="diag4">4. mual dan muntah</string>
+    <string name="diag5">5. tajam penglihatan menurun mendadak</string>
+    <string name="diag6">6. edema kornea</string>
+    <string name="diag7">7. injeksi konjungtiva dan injeksi siliar</string>
+    <string name="diag8">8. tekanan intra ocular meningkat >21mmhg</string>
+    <string name="diag9">9. penurunan lapang pandang</string>
+    <string name="diag10">10. rasio CDR melebar</string>
+
+    <string-array name="diag">
+        <item>Tidak</item>
+        <item>Tidak Tahu</item>
+        <item>Sedikit Yakin</item>
+        <item>Cukup Yakin</item>
+        <item>Yakin</item>
+        <item>Sangat Yakin</item>
+    </string-array>
+
+
+</resources>
